@@ -9,12 +9,10 @@
 }
 
 .carousel {
-    /* position: relative; */
     width: 398px;
     padding: 10px 40px;
-    border: 1px solid #CCC;
+    border: 1px solid white;
     border-radius: 15px;
-    /* background: #eee; */
 }
   
 .carousel img {
@@ -27,12 +25,12 @@
     position: absolute;
     top: 60px;
     padding: 0;
-    background: #ddd;
+    background: white;
     border-radius: 15px;
     border: 1px solid gray;
     font-size: 24px;
     line-height: 24px;
-    color: #444;
+    color: rgb(44, 43, 43);
     display: block;
   }
   
@@ -41,23 +39,21 @@
   }
   
   .action:hover {
-    background: #ccc;
+    background: white;
     cursor: pointer;
   }
   
   .back {
-    /* left: 7px; */
     left: 5px;
   }
   
   .next {
-    /* right: 7px; */
     right: 5px;
   }
   
 
   .imgstore {
-    width: 390px;
+    width: 400px;
     overflow: hidden;
   }
   
