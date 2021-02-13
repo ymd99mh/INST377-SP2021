@@ -9,7 +9,7 @@
 }
 
 .carousel {
-    width: 398px;
+    width: 400px;
     padding: 10px 40px;
     border: 1px solid white;
     border-radius: 15px;
@@ -21,7 +21,7 @@
     display: block;
 }
 
-.arrow {
+.action {
     position: absolute;
     top: 60px;
     padding: 0;
@@ -64,7 +64,6 @@
     padding: 0;
     list-style: none;
     transition: margin-left 250ms;
-    /* font-size: 0; */
   }
   
   .imgstore li {
