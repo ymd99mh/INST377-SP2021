@@ -33,7 +33,7 @@
     color: rgb(44, 43, 43);
     display: block;
   }
-  
+/*   
   .action:focus {
     outline: none;
   }
@@ -41,7 +41,7 @@
   .action:hover {
     background: white;
     cursor: pointer;
-  }
+  } */
   
   .back {
     left: 5px;
