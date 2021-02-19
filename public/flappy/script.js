@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let gravity = 2
 
     function startGame() {
-        bird.bottom -= gravity
-        bird.getElementsByClassName.bottom = birdBottom + 'px'
-        bird.getElementsByClassName.left = birdLeft + 'px'
+        birdBottom -= gravity
+        bird.style.bottom = birdBottom + 'px'
+        bird.style.left = birdLeft + 'px'
     }
     let timerID = setInterval(startGame, 20)
 
