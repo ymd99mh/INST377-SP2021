@@ -3,12 +3,14 @@
     height: 730px;
     position: absolute;
 }
+
 .sky {
     background-color: rgb(106, 175, 240);
     width: 500px;
     height: 580px;
     position: absolute;
 }
+
 .ground {
     background-color: rgb(116, 83, 83);
     width: 500px;
@@ -17,9 +19,18 @@
     top: 580px 
     /* ^putting the hight of the sky to flip the sides */
 }
+
 .bird {
     background-color: rgb(194, 126, 71);
     width: 60px;
     height: 45px;
     position: absolute;
 }
+
+.obstacle {
+    background-color: green;
+    width: 60px;
+    height: 300px;
+    position: absolute;
+}
+
