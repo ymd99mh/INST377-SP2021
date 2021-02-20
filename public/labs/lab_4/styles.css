@@ -1,10 +1,16 @@
   body {
     font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
     background: rgb(202, 178, 146);
-    color: #fff;
+    color: white;
     padding: 50px 0;
   }
-  
+
+  h1 {
+    font-family: "Times New Roman", "Georgia", Serif;
+    color: white;
+    text-align: center
+  }
+
   .container {
     width: 80%;
     max-width: 1200px;
@@ -72,11 +78,12 @@
   }
   
   .flex-outer li button {
-    margin-right: auto;
+    position: absolute;
+    margin-left: auto;
     padding: 8px 16px;
     border: none;
     background: white;
-    color: white;
+    color: rgb(73, 73, 73);
     text-transform: uppercase;
     letter-spacing: .09em;
     border-radius: 2px;
