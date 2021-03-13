@@ -1,28 +1,2 @@
-body {
-    line-height: 1.6;
-    font-size: 18px;
-    color: black;
-    padding: 0 10px;
-}
 
-h1, 
-h2, 
-h3 {
-    line-height: 1.2;
-}
-
-#mapid { 
-    height: 480px;
-}
-
-.list-header {
-    font-weight: 600;
-    font-size: 1.25rem;
-}
-
-.list-item {
-    border-radius: 4px;
-    color: pink;
-    background: purple;
-    padding: 5px;
-}
+#mapid { height: 180px; }
