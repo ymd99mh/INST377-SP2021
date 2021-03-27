@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carousel</title>
-    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "styles.css" type='text/css'>
 </head>
 <body>
 <!-- Write an index.html file -->
@@ -12,25 +12,22 @@
 <!-- Include your script.js right before the </body> tag -->
 <!-- Make a carousel of four mochi images that cycle, based on the readings from javascript.info -->
     <div id="carousel" class="carousel">
-        hello world
-
-        <button class="action back">⇦</button>
-        <div class="imgstore"></div>
-            <ul>
-                <li><img src = "images/onigiri_1.png" width = "130" height = "130"></li> 
-                <li><img src = "images/onigiri_2.png" width = "130" height = "130"></li>  
-                <li><img src = "images/onigiri_3.png" width = "130" height = "130"></li>
-                <li><img src = "images/onigiri_4.png" width = "130" height = "130"></li>
-                <li><img src = "images/roll_1.png" width = "130" height = "130"></li>
-                <li><img src = "images/roll_2.png" width = "130" height = "130"></li>
-                <li><img src = "images/roll_3.png" width = "130" height = "130"></li>
+        <div class='container'>
+            <button class="prevImage">⇦</button>
+            <ul class='images'>
+                <li><img src = "images/onigiri_1.png" class='image' alt="gomoku onigiri"></li> 
+                <li><img src = "images/onigiri_2.png" class='image' alt="seaweed-undered onigiri"></li>  
+                <li><img src = "images/onigiri_3.png" class='image' alt="seaweed-topped onigiri"></li>
+                <li><img src = "images/onigiri_4.png" class='image' alt="seaweed-covered onigiri"></li>
+                <li><img src = "images/roll_1.png" class='image' alt="picle roll"></li>
+                <li><img src = "images/roll_2.png" class='image' alt="salad roll"></li>
+                <li><img src = "images/roll_3.png" class='image' alt="ikura gunkan"></li>
             </ul>
+            <button class="nextImage">⇨</button>
         </div>
-        <button class="action next">⇨</button>
     </div>
 
-
-<script type = "text/javascript" src = "script.js"></script>
+    <script src='script.js'></script>
 </body>
 </html>
 
